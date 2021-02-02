@@ -1,0 +1,67 @@
+:root {
+	--color-accent-primary		: #C271FF;
+	--color-white				: #FFF;
+	--color-black				: #000;
+
+	--font-primary				: 'Source Sans Pro';
+	--font-seconday				: 'Spin Cycle OT';
+}
+
+body {
+	font-family: 'Source Sans Pro';
+}
+
+/* Resets font sizes */
+h2 {
+	font-size: 7.5rem!important;
+}
+h4 {
+	font-size: 2rem!important;
+}
+h5 {
+	font-size: 1.125rem!important;
+}
+nav a {
+	color: var(--color-white);
+}
+nav a:hover, nav a:active {
+	color: var(--color-white);
+}
+
+button:hover, button:active {
+	opacity: 0.9;
+}
+
+/* Add-on Styles */
+.accent-primary-bg {
+	color: var(--color-white)!important;
+	background-color: var(--color-accent-primary)!important;
+}
+.accent-primary-txt {
+	color: var(--color-accent-primary);
+}
+
+.btn-shadow {
+	filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+#hero {
+	background-image: url(./images/pic_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 1000px;
+}
+#logo-pic {
+	height: 1.5rem;
+}
+#logo-text {
+	height: 2rem;
+}
+.profile {
+	max-width: 9.375rem;
+}
+.profile > img {
+	width: 9.375rem;
+}
+.profile > p {
+	font-style: italic;
+}

@@ -1,1 +1,1 @@
-# Holberton Smiling School
+# Bootstrap - Holberton Smiling School
