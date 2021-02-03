@@ -13,7 +13,7 @@ body {
 
 /* Resets font sizes */
 h2 {
-	font-size: 7.5rem!important;
+	font-size: 72px!important;
 }
 h4 {
 	font-size: 2rem!important;
@@ -22,10 +22,10 @@ h5 {
 	font-size: 1.125rem!important;
 }
 nav a {
-	color: var(--color-white);
+	color: var(--color-white) !important;
 }
 nav a:hover, nav a:active {
-	color: var(--color-white);
+	color: var(--color-white) !important;
 }
 
 button:hover, button:active {
@@ -51,7 +51,8 @@ button:hover, button:active {
 	min-height: 1000px;
 }
 #logo-pic {
-	height: 1.5rem;
+	height: 30px;
+	width: 37px;
 }
 #logo-text {
 	height: 2rem;

@@ -23,18 +23,19 @@
 	</head>
 	<body>
 		<main>
-			<section class="jumbotron rounded-0 m-0 p-4 d-flex flex-column justify-content-between text-center text-white" id="hero">
-				<div class="container" id="navbar-container">
+			<section class="jumbotron rounded-0 m-0 p-0 d-flex flex-column justify-content-between text-center text-white" id="hero">
+				<div class="container my-4" id="navbar-container">
 					<header>
-						<nav class="navbar text-uppercase">
-							<button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#menu-items">
+						<nav class="navbar navbar-dark navbar-expand-sm text-uppercase row">
+							<button class="navbar-toggler d-block d-sm-none collapsed mr-2" data-toggle="collapse" data-target="#menu-items">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<a class="navbar-brand" href="#">
+							<a class="navbar-brand mr-sm-auto d-flex flex-column flex-sm-row align-items-center" href="#">
 								<img src="./assets/images/smile_off.png" id="logo-pic">
 								<img src="./assets/images/logo.png" id="logo-text">
 							</a>
-							<ul class="nav" id="menu-items">
+							<div id="dummy" class="col-2 d-sm-none"></div>
+							<ul class="navbar-nav col-12 col-sm-3 collapse navbar-collapse" id="menu-items">
 								<li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Login</a></li>
@@ -43,12 +44,12 @@
 					</header>
 				</div>
 				<div class="container my-auto" id="text-container">
-					<div id="cta" class="p-5">
+					<div id="cta" class="py-5">
 						<h2 id="hero-text" class="font-weight-bold m-0">Get Schooled</h2>
 						<div id="emotions" class="d-flex justify-content-center text-uppercase font-weight-bold">
-							<p class="px-5 py-3">Smiles</p>
+							<p class="px-0 py-3">Smiles</p>
 							<p class="px-5 py-3">Grim</p>
-							<p class="px-5 py-3">Laugh</p>
+							<p class="px-0 py-3">Laugh</p>
 						</div>
 						<a id="cta-btn" href="#">
 							<button class="btn btn-shadow accent-primary-bg rounded-pill text-uppercase p-2">Register for free</button>
@@ -57,23 +58,23 @@
 				</div>
 				<div class="container mt-auto" id="profiles" >
 					<h4 class="font-weight-light py-5"><span class="accent-primary-txt font-weight-bold">Learn</span> from the pros</h4>
-					<div class="d-flex justify-content-around">
-						<div class="profile">
+					<div class="row">
+						<div class="profile col-6 col-md-3 p-0">
 							<img class="rounded-circle" src="./assets/images/profile_1.jpg" alt="">
 							<h5 class="font-weight-bold">Phillip Massey</h5>
 							<p>« Smile of the year » 2018 - 2019</p>
 						</div>
-						<div class="profile">
+						<div class="profile col-6 col-md-3 p-0">
 							<img class="rounded-circle" src="./assets/images/profile_2.jpg" alt="">
 							<h5 class="font-weight-bold">Nannie Lawrence</h5>
 							<p>Best « little smile » 2017</p>
 						</div>
-						<div class="profile">
+						<div class="profile col-6 col-md-3 p-0">
 							<img class="rounded-circle" src="./assets/images/profile_3.jpg" alt="">
 							<h5 class="font-weight-bold">Bruce Walters</h5>
 							<p>Best « Friend Smile » live performance 2019</p>
 						</div>
-						<div class="profile">
+						<div class="profile col-6 col-md-3 p-0">
 							<img class="rounded-circle" src="./assets/images/profile_4.jpg" alt="">
 							<h5 class="font-weight-bold">Henry Hughes</h5>
 							<p>« 24h smiles » winner 2016 - 2019</p>
