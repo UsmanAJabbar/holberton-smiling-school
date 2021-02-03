@@ -91,3 +91,17 @@ button:hover, button:active {
 	height: 60px !important;
 	width: 30px !important;
 }
+
+.video_thumbnail {
+	background-image: url(./images/thumbnail_1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+.video_thumbnail .play_btn {
+	background-image: url(./images/play.png);
+	width: 100px;
+	height: 100px;
+	background-size: contain;
+}
