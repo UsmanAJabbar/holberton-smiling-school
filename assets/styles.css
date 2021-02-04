@@ -171,7 +171,9 @@ button:hover, button:active {
 	width: 30px;
 	height: 30px;
 }
-
+.border-bottom-opacity-50 {
+	border-bottom: 1px solid #ffffff80;
+}
 /* Center Logo on mobile devices */
 /* @media screen and (max-width: 576px) {
 	#joined-logos {
