@@ -16,6 +16,9 @@ body {
 h2 {
 	font-size: 72px!important;
 }
+h3 {
+	font-size: 50px!important;
+}
 h4 {
 	font-size: 32px!important;
 }
@@ -162,3 +165,18 @@ button:hover, button:active {
 #pricing_header {
 	background-image: url(./images/pic_2.jpg);
 }
+
+#pricing_header svg {
+	fill: #82D24F;
+	width: 30px;
+	height: 30px;
+}
+
+/* Center Logo on mobile devices */
+/* @media screen and (max-width: 576px) {
+	#joined-logos {
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+} */

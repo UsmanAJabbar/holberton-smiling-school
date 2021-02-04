@@ -26,16 +26,16 @@
 			<section class="container-fluid rounded-0 m-0 p-0 d-flex flex-column justify-content-between text-center text-white bg-cover" id="pricing_header">
 				<div class="container my-4" id="navbar-container">
 					<header>
-						<nav class="navbar navbar-dark navbar-expand-sm text-uppercase row">
+						<nav class="navbar navbar-dark navbar-expand-sm text-uppercase row d-flex justify-content-md-between position-relative">
 							<button class="navbar-toggler d-block d-sm-none collapsed mr-2" data-toggle="collapse" data-target="#menu-items">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<a class="navbar-brand mr-sm-auto d-flex flex-column flex-sm-row align-items-center" href="#">
+							<a class="navbar-brand mr-sm-auto d-flex flex-column flex-sm-row align-items-center" href="#" id="joined-logos">
 								<img src="./assets/images/smile_off.png" id="logo-pic">
 								<img src="./assets/images/logo.png" id="logo-text">
 							</a>
 							<div id="dummy" class="col-2 d-sm-none"></div>
-							<ul class="navbar-nav col-12 col-sm-3 collapse navbar-collapse" id="menu-items">
+							<ul class="navbar-nav collapse navbar-collapse flex-sm-grow-0" id="menu-items">
 								<li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Login</a></li>
@@ -48,6 +48,101 @@
 						<h4 id="hero-text" class="m-0">What is <img src="./assets/images/smile_off.png" id="logo-pic"><img src="./assets/images/logo.png"> ?</h4>
 						<h2 class="mt-5">Go Pro!</h2>
 					</div>
+				</div>
+				<div class="container" id="pricing-table">
+					<!-- Pricing Buttons -->
+					<div class="row my-5">
+						<div class="dummy d-none d-sm-block col-md-4"></div>
+						<div class="col-6 col-md-4">
+							<a href="#" class="text-uppercase">
+								<button class="btn btn-shadow accent-primary-bg rounded-pill text-uppercase p-2 font-weight-bold w-100">Buy 3 months</button>
+							</a>
+							<h3 class="annual_price">$3.60</h3>
+							<i class="monthly_price text-secondary">$1.20/month</i>
+						</div>
+						<div class="col-6 col-md-4">
+							<a href="#" class="text-uppercase">
+								<button class="btn btn-shadow accent-primary-bg rounded-pill text-uppercase p-2 font-weight-bold w-100">Buy 1 Year</button>
+							</a>
+							<h3 class="annual_price">$12.99</h3>
+							<i class="monthly_price text-secondary">$1.08/month</i>
+						</div>
+					</div>
+					<!-- Pricing Table -->
+					<div class="row my-3 d-sm-none">
+						<div class="col-6 col-md-4 text-left"></div>
+						<div class="col-3 col-md-4 font-weight-bold p-0">3 Months</div>
+						<div class="col-3 col-md-4 font-weight-bold p-0">1 Year</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-6 col-md-4 text-left">
+							<p>Unlimited access to all tutorials</p>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+					</div>
+					<div class="row my-2">
+						<div class="col-6 col-md-4 text-left">
+							<p>Access SmileSchool private forum</p>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+					</div>
+					<div class="row my-2">
+						<div class="col-6 col-md-4 text-left">
+							<p>Acess Smiles contests & Smiles Analysis</p>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+					</div>
+					<div class="row my-2">
+						<div class="col-6 col-md-4 text-left">
+							<p>Get a free toothbrush</p>
+						</div>
+						<div class="col-3 col-md-4"></div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-6 col-md-4 text-left">
+							<img src="./assets/images/signal.png" width="100px">
+							<p>Exclusive discount on all Signal products</p>
+						</div>
+						<div class="col-3 col-md-4"></div>
+						<div class="col-3 col-md-4">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+							</svg>
+						</div>
+					</div>
+					
 				</div>
 			</section>
 		</main>
