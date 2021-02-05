@@ -173,10 +173,13 @@ button:hover, button:active {
 }
 
 /* Center Logo on mobile devices */
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 	#joined-logos {
+		margin-left: 33%;
+		margin-right: 33%;
 		position: absolute;
+		top: 0;
 		left: 0;
 		right: 0;
 	}
-} */
+}
