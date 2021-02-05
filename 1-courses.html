@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Page Metadata -->
+		<title>Homepage</title>
+
+		<!-- Responsive Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Custom Font Imports -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/fonts/fonts.css">
+
+		<!-- JS imports -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- CSS Imports -->
+		<link rel="stylesheet" href="./assets/styles.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	<body>
+		<main>
+			<section class="container-fluid m-0 p-0 d-flex flex-column justify-content-between text-center text-white bg-cover" id="pricing_header">
+				<div class="container my-4" id="navbar-container">
+					<header>
+						<nav class="navbar navbar-dark navbar-expand-sm text-uppercase row d-flex justify-content-md-between position-relative">
+							<button class="navbar-toggler d-block d-sm-none collapsed mr-2" data-toggle="collapse" data-target="#menu-items">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<a class="navbar-brand mr-sm-auto d-flex flex-column flex-sm-row align-items-center" href="#" id="joined-logos">
+								<img src="./assets/images/smile_off.png" id="logo-pic">
+								<img src="./assets/images/logo.png" id="logo-text">
+							</a>
+							<div id="dummy" class="col-2 d-sm-none"></div>
+							<ul class="navbar-nav collapse navbar-collapse flex-sm-grow-0 mt-4 mt-sm-0" id="menu-items">
+								<li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+								<li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+							</ul>
+						</nav>
+					</header>
+				</div>
+				<div class="container my-auto" id="text-container">
+					<div id="cta" class="py-5">
+						<h4 id="course-h-heading" class="d-none d-sm-block font-tertiary mt-5">« Don’t cry because it’s over. <span class="accent-primary-txt">Smile</span> because it happened. »</h4>
+					</div>
+				</div>
+			</section>
+			<section class="container-fluid accent-primary-bg p-5">
+				<div class="container">
+					<div class="row" id="selector-rows">
+						<div class="col-12 col-md-4 my-2">
+							<label class="text-uppercase font-weight-bold" for=""><small class="font-weight-bold">Keywords</small></label>
+							<input class="w-100 bg-opacity-5 p-2 custom-select custom-select-lg rounded-top-custom search-icon" type="text">
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 my-2">
+							<label for="topic" class="text-uppercase font-weight-bold"><small class="font-weight-bold">Topic</small></label>
+							<select id="topic" class="custom-select custom-select-lg bg-opacity-5 text-white rounded-top-custom">
+								<option class="text-dark" value="novice">Novice</option>
+								<option class="text-dark" value="intermidate">Intermidate</option>
+								<option class="text-dark" value="expert">Expert</option>
+							</select>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 my-2">
+							<label for="sort" class="text-uppercase font-weight-bold"><small class="font-weight-bold">Sort By</small></label>
+							<select id="sort" class="custom-select custom-select-lg bg-opacity-5 text-white rounded-top-custom">
+								<option class="text-dark" value="popular">Most Popular</option>
+								<option class="text-dark" value="intermidate">Most Recent</option>
+								<option class="text-dark" value="expert">Most Viewed</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+	</body>
+</html>
